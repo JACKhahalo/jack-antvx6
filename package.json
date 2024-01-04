@@ -1,0 +1,36 @@
+{
+  "name": "antvx6-jack",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@antv/x6": "^2.16.1",
+    "@antv/x6-plugin-clipboard": "2.1.6",
+    "@antv/x6-plugin-dnd": "^2.1.1",
+    "@antv/x6-plugin-history": "2.2.4",
+    "@antv/x6-plugin-keyboard": "2.2.1",
+    "@antv/x6-plugin-selection": "2.2.1",
+    "@antv/x6-plugin-snapline": "2.1.7",
+    "@antv/x6-plugin-stencil": "2.1.4",
+    "@antv/x6-plugin-transform": "2.1.8",
+    "ant-design-vue": "^4.0.8",
+    "element-plus": "^2.4.4",
+    "insert-css": "2.0.0",
+    "lodash": "^4.17.21",
+    "pinia": "^2.1.7",
+    "veaury": "^2.3.12",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@types/insert-css": "^2.0.3",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}

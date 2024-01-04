@@ -1,0 +1,58 @@
+{
+  "id": "4397966",
+  "name": "gxfz",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "34003833",
+      "name": "油浸式变压器",
+      "font_class": "youjinshibianyaqi",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "37585066",
+      "name": "变压器耐短路",
+      "font_class": "bianyaqinaiduanlu-1",
+      "unicode": "e72b",
+      "unicode_decimal": 59179
+    },
+    {
+      "icon_id": "37585068",
+      "name": "变压器耐短路",
+      "font_class": "bianyaqinaiduanlu",
+      "unicode": "e72c",
+      "unicode_decimal": 59180
+    },
+    {
+      "icon_id": "37633148",
+      "name": "短路变压器",
+      "font_class": "duanlubianyaqi",
+      "unicode": "e74c",
+      "unicode_decimal": 59212
+    },
+    {
+      "icon_id": "37633150",
+      "name": "非短路变压器",
+      "font_class": "feiduanlubianyaqi",
+      "unicode": "e74d",
+      "unicode_decimal": 59213
+    },
+    {
+      "icon_id": "37633169",
+      "name": "隔离变压器",
+      "font_class": "gelibianyaqi",
+      "unicode": "e74b",
+      "unicode_decimal": 59211
+    },
+    {
+      "icon_id": "37633216",
+      "name": "玩具用变压器",
+      "font_class": "wanjuyongbianyaqi",
+      "unicode": "e74e",
+      "unicode_decimal": 59214
+    }
+  ]
+}
