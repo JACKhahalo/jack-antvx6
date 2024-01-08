@@ -1,16 +1,14 @@
 <template>
   <div class="component-group">
-    <ComponentItem svg="1"></ComponentItem>
-    <ComponentItem svg="2"></ComponentItem>
-    <ComponentItem svg="3"></ComponentItem>
-    <ComponentItem svg="4"></ComponentItem>
-    <ComponentItem svg="5"></ComponentItem>
-    <ComponentItem svg="6"></ComponentItem>
-    <ComponentItem svg="7"></ComponentItem>
-    <ComponentItem svg="8"></ComponentItem>
+    <ComponentItem v-for="item of models" :type="item[0]"></ComponentItem>
+    <!-- <ComponentItem type="ConnectivePoint_1"></ComponentItem>
+    <ComponentItem type="ConnectivePoint_3"></ComponentItem>
+    <ComponentItem type="FaultIndicator_1"></ComponentItem>
+    <ComponentItem type="PolePSR_2"></ComponentItem> -->
   </div>
 </template>
 <script setup lang="ts">
+import models from './models/index';
 import ComponentItem from './ComponentItem.vue';
 </script>
 <style scoped>

@@ -10,10 +10,12 @@
     </div>
     <div v-else>
       <el-tabs v-model="activeName" type="border-card">
-        <el-tab-pane label="参数" name="1">
-          <NodeSettings></NodeSettings>
+        <el-tab-pane label="格式" name="1">
+          <NodeSettings></NodeSettings
+        ></el-tab-pane>
+        <el-tab-pane label="参数" name="2">
+          <DataSettings></DataSettings>
         </el-tab-pane>
-        <el-tab-pane label="格式" name="2"></el-tab-pane>
       </el-tabs>
     </div>
   </div>
@@ -23,6 +25,7 @@ import { ref } from 'vue';
 import GraphSettings from './GraphSettings.vue';
 import NodeSettings from './NodeSettings.vue';
 import { grahpStore } from '../../../pinia/graph';
+import DataSettings from './DataSettings.vue';
 const store = grahpStore();
 
 const activeName = ref('1');

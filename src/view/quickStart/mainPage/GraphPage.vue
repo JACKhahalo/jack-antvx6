@@ -3,7 +3,7 @@
 </template>
 <script lang="ts" setup>
 import { onMounted, reactive } from 'vue';
-import { Graph } from '@antv/x6';
+import { Graph, Shape } from '@antv/x6';
 import { grahpStore } from '../../../pinia/graph';
 
 import { Transform } from '@antv/x6-plugin-transform';
@@ -17,6 +17,7 @@ let graph: Graph;
 
 onMounted(() => {
   console.log('onMounted');
+  window.__x6_instances__ = [];
   graph = reactive(
     new Graph({
       container: document.getElementById('graph-container') as HTMLElement,
@@ -33,6 +34,38 @@ onMounted(() => {
       },
       panning: true,
       mousewheel: true,
+      connecting: {
+        router: 'manhattan',
+        connector: {
+          name: 'rounded',
+          args: {
+            radius: 8,
+          },
+        },
+        anchor: 'center',
+        connectionPoint: 'anchor',
+        allowBlank: false,
+        snap: {
+          radius: 8,
+        },
+        createEdge() {
+          return new Shape.Edge({
+            attrs: {
+              line: {
+                stroke: '#000000',
+                strokeWidth: 1,
+                targetMarker: {
+                  name: null,
+                },
+              },
+            },
+            zIndex: 0,
+          });
+        },
+        validateConnection({ targetMagnet }) {
+          return !!targetMagnet;
+        },
+      },
     })
   ) as unknown as Graph;
   store.currentGraphChange(graph);
@@ -83,6 +116,7 @@ onMounted(() => {
     ) as NodeListOf<SVGElement>;
     showPorts(ports, false);
   });
+  window.__x6_instances__.push(graph);
 });
 </script>
 <style></style>
