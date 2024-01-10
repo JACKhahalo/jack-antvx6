@@ -9,7 +9,7 @@
       </el-tabs>
     </div>
     <div v-else>
-      <el-tabs v-model="activeName" type="border-card">
+      <el-tabs v-model="activeName2" type="border-card">
         <el-tab-pane label="格式" name="1">
           <NodeSettings></NodeSettings
         ></el-tab-pane>
@@ -29,6 +29,7 @@ import DataSettings from './DataSettings.vue';
 const store = grahpStore();
 
 const activeName = ref('1');
+const activeName2 = ref('1');
 </script>
 <style scoped>
 ::v-deep .el-tabs__header {

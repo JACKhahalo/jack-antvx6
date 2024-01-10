@@ -78,7 +78,13 @@
           </el-form-item>
         </el-form>
       </el-collapse-item>
-      <el-collapse-item title="引脚" name="2"></el-collapse-item>
+      <el-collapse-item title="引脚" name="2">
+        <el-form label-width="40px" size="small" label-position="left">
+          <el-form-item v-for="item in ports" :label="`${item.id}:`">
+            <el-input size="small" v-model="item.attrs!.text.text" />
+          </el-form-item>
+        </el-form>
+      </el-collapse-item>
     </el-collapse>
   </div>
 </template>
@@ -92,8 +98,9 @@ let activeCollapsekey = ref('0');
 let node: Node = store.currentNode.node;
 let data = reactive(node.getData());
 let visible = ref(node.isVisible());
+let ports = reactive(node.getPorts());
 
-console.log(node.isVisible(), 'data');
+console.log(ports, node.getPortProp(ports[0].id as unknown as string), 'data');
 
 const initDefault = (node: Node) => {
   data = node.getData();
@@ -121,6 +128,12 @@ watch(
     deep: true,
   }
 );
+
+watch(ports, (value) => {
+  console.log(value, 'ports');
+  node.prop('ports/items', value);
+});
+
 const visibleChange = (value: boolean) => {
   node.setVisible(value);
 };

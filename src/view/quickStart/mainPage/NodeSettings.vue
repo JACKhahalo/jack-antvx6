@@ -81,7 +81,6 @@ const initDefault = (node: Node) => {
   node.setAttrs(attrs);
 };
 
-console.log(attrs);
 watch(
   store,
   (value) => {
@@ -112,7 +111,6 @@ watch(
   attrs,
   (value) => {
     node.setAttrs(value);
-
     console.log(node, value, 'change', node.getAttrs());
   },
   {

@@ -2,7 +2,7 @@
   <div @mousedown="startDrag" class="component-item">
     <svg width="80" height="60" viewBox="-40 -30 90 60 ">
       <path
-        :d="model.settings.markup[0].attrs.d"
+        :d="model!.settings.markup![0].attrs.d"
         stroke="#000000"
         strokeWidth="1"
         fill="transparent"
@@ -28,7 +28,7 @@ dnd = store.currentDnd as unknown as Dnd;
 graph = store.currentGraph as unknown as Graph;
 
 const startDrag = (e: any) => {
-  const node = graph.createNode(model.settings);
+  const node = graph.createNode(model!.settings);
   dnd.start(node, e);
 };
 </script>
@@ -39,7 +39,7 @@ const startDrag = (e: any) => {
 }
 .component-item {
   background-color: transparent;
-  margin: 5px;
+  padding: 5px;
 }
 .item-label {
   width: 80px;

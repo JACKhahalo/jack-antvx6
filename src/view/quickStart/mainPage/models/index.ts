@@ -1,4 +1,10 @@
-const models = new Map();
+import { Node } from '@antv/x6';
+class divNode {
+  name!: string;
+  fullName!: string;
+  settings!: Node.Metadata;
+}
+const models: Map<string, divNode> = new Map();
 //初始默认配置
 const defaultAttrs = {
   body: {
@@ -7,6 +13,8 @@ const defaultAttrs = {
     fill: '#fff',
   },
   path: {
+    width: '150px',
+    height: '150px',
     stroke: '#000000',
     strokeWidth: 1,
     fill: '#fff',
@@ -25,6 +33,9 @@ const defaultPortsAttrs = {
     style: {
       visibility: 'hidden',
     },
+  },
+  text: {
+    text: '',
   },
 };
 const defaultAttribute = [
@@ -94,7 +105,12 @@ models.set('ConnectivePoint_1', {
           group: 'group1',
           args: {
             x: 5,
-            y: 1,
+            y: 0,
+          },
+          attrs: {
+            text: {
+              text: '',
+            },
           },
         },
       ],
@@ -142,10 +158,19 @@ models.set('ConnectivePoint_3', {
           group: 'group1',
           args: {
             x: 5,
-            y: 1,
+            y: 0,
+          },
+          attrs: {
+            text: {
+              text: '',
+            },
           },
         },
       ],
+    },
+    data: {
+      attribute: [...defaultAttribute],
+      configuration: [...defaultConfiguration],
     },
   },
 });
@@ -188,8 +213,17 @@ models.set('FaultIndicator_1', {
             x: 12,
             y: 12,
           },
+          attrs: {
+            text: {
+              text: '',
+            },
+          },
         },
       ],
+    },
+    data: {
+      attribute: [...defaultAttribute],
+      configuration: [...defaultConfiguration],
     },
   },
 });
@@ -232,8 +266,17 @@ models.set('PolePSR_2', {
             x: 7,
             y: 7,
           },
+          attrs: {
+            text: {
+              text: '',
+            },
+          },
         },
       ],
+    },
+    data: {
+      attribute: [...defaultAttribute],
+      configuration: [...defaultConfiguration],
     },
   },
 });
