@@ -1,0 +1,146 @@
+{
+  "CBLT_229040009770100": {
+    "angle": 270,
+    "args": {
+      "Name": "未命名"
+    },
+    "canvas": "canvas_20230801095444",
+    "context": {},
+    "definition": "model/xiaoxine/ConnectivePoint_1",
+    "id": "CBLT_229040009770100",
+    "label": "",
+    "pins": {
+      "0": "NODE_229040537549300"
+    },
+    "position": {
+      "x": 2701.053799996,
+      "y": 1103.0859183639998
+    },
+    "props": {
+      "enabled": true
+    },
+    "shape": "ConnectivePoint_1",
+    "size": {
+      "height": 12.149999099999999,
+      "width": 8.0999994
+    },
+    "style": {
+      "--fill": "var(--spectrum-global-color-gray-100)",
+      "--fill-opacity": 1,
+      "--font-family": "var(--spectrum-global-font-family-base, Arial, Helvetica, sans-serif)",
+      "--stroke": "var(--spectrum-global-color-gray-900)",
+      "--stroke-opacity": 1,
+      "--stroke-width": 2,
+      "--text": "var(--spectrum-global-color-gray-900)",
+      "--text-opacity": 1
+    }
+  },
+  "CBLT_229040009770200": {
+    "angle": 90,
+    "args": {
+      "Name": "未命名"
+    },
+    "canvas": "canvas_20230801095444",
+    "context": {},
+    "definition": "model/xiaoxine/ConnectivePoint_1",
+    "id": "CBLT_229040009770200",
+    "label": "",
+    "pins": {
+      "0": "NODE_229040009697600"
+    },
+    "position": {
+      "x": 2761.07479555,
+      "y": 1103.247918352
+    },
+    "props": {
+      "enabled": true
+    },
+    "shape": "ConnectivePoint_1",
+    "size": {
+      "height": 12.149999099999999,
+      "width": 8.0999994
+    },
+    "style": {
+      "--fill": "var(--spectrum-global-color-gray-100)",
+      "--fill-opacity": 1,
+      "--font-family": "var(--spectrum-global-font-family-base, Arial, Helvetica, sans-serif)",
+      "--stroke": "var(--spectrum-global-color-gray-900)",
+      "--stroke-opacity": 1,
+      "--stroke-width": 2,
+      "--text": "var(--spectrum-global-color-gray-900)",
+      "--text-opacity": 1
+    }
+  },
+  "CBLT_229040009772600": {
+    "angle": 0,
+    "args": {
+      "Name": ""
+    },
+    "canvas": "canvas_20230801095444",
+    "context": {},
+    "definition": "model/xiaoxine/ConnectivePoint_1",
+    "id": "CBLT_229040009772600",
+    "label": "",
+    "pins": {
+      "0": "NODE_229040537550500"
+    },
+    "position": {
+      "x": 2652.12980362,
+      "y": 1151.1999148
+    },
+    "props": {
+      "enabled": true
+    },
+    "shape": "ConnectivePoint_1",
+    "size": {
+      "height": 12.149999099999999,
+      "width": 8.0999994
+    },
+    "style": {
+      "--fill": "var(--spectrum-global-color-gray-100)",
+      "--fill-opacity": 1,
+      "--font-family": "var(--spectrum-global-font-family-base, Arial, Helvetica, sans-serif)",
+      "--stroke": "var(--spectrum-global-color-gray-900)",
+      "--stroke-opacity": 1,
+      "--stroke-width": 2,
+      "--text": "var(--spectrum-global-color-gray-900)",
+      "--text-opacity": 1
+    }
+  },
+  "CBLT_229040009772700": {
+    "angle": 180,
+    "args": {
+      "Name": "未命名"
+    },
+    "canvas": "canvas_20230801095444",
+    "context": {},
+    "definition": "model/xiaoxine/ConnectivePoint_1",
+    "id": "CBLT_229040009772700",
+    "label": "",
+    "pins": {
+      "0": "NODE_229040502482000"
+    },
+    "position": {
+      "x": 2651.967803632,
+      "y": 1216.161909988
+    },
+    "props": {
+      "enabled": true
+    },
+    "shape": "ConnectivePoint_1",
+    "size": {
+      "height": 12.149999099999999,
+      "width": 8.0999994
+    },
+    "style": {
+      "--fill": "var(--spectrum-global-color-gray-100)",
+      "--fill-opacity": 1,
+      "--font-family": "var(--spectrum-global-font-family-base, Arial, Helvetica, sans-serif)",
+      "--stroke": "var(--spectrum-global-color-gray-900)",
+      "--stroke-opacity": 1,
+      "--stroke-width": 2,
+      "--text": "var(--spectrum-global-color-gray-900)",
+      "--text-opacity": 1
+    }
+  }
+}

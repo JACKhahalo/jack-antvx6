@@ -6,6 +6,7 @@
     <el-container>
       <el-header style="height: 39px">
         <HeaderPanel
+          v-if="store.leftSideRender"
           @leftChange="leftChange"
           @rightChange="rightChange"
           :left="left"

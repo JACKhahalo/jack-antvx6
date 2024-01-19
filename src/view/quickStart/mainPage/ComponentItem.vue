@@ -2,7 +2,7 @@
   <div @mousedown="startDrag" class="component-item">
     <svg width="80" height="60" viewBox="-40 -30 90 60 ">
       <path
-        :d="model!.settings.markup![0].attrs.d"
+        :d="model!.settings.attrs!.path.refDKeepOffset"
         stroke="#000000"
         strokeWidth="1"
         fill="transparent"

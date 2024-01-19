@@ -3,10 +3,10 @@
     <el-tabs v-model="activeTabsKey" type="border-card">
       <el-tab-pane label="模型" name="1">
         <el-collapse v-model="activeCollapsekey">
-          <el-collapse-item title="变压器" name="1">
+          <el-collapse-item title="模块-基础" name="1">
             <ComponentGroup v-if="store.itemRender"> </ComponentGroup>
           </el-collapse-item>
-          <el-collapse-item title="模块-基础" name="2"> </el-collapse-item>
+          <el-collapse-item title="模块2" name="2"> </el-collapse-item>
         </el-collapse>
       </el-tab-pane>
       <el-tab-pane label="Config" name="2"></el-tab-pane>

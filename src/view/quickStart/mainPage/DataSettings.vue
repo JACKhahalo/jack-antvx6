@@ -2,7 +2,12 @@
   <div class="settings-container">
     <el-collapse v-model="activeCollapsekey">
       <el-collapse-item title="属性" name="0">
-        <el-form label-width="70px" size="small" label-position="left">
+        <el-form
+          v-if="data.attribute"
+          label-width="70px"
+          size="small"
+          label-position="left"
+        >
           <el-form-item label="是否启用:">
             <el-switch v-model="visible" @change="visibleChange" />
           </el-form-item>
@@ -42,7 +47,12 @@
         </el-form>
       </el-collapse-item>
       <el-collapse-item title="参数" name="1">
-        <el-form label-width="40px" size="small" label-position="left">
+        <el-form
+          v-if="data.configuration"
+          label-width="60px"
+          size="small"
+          label-position="left"
+        >
           <el-form-item
             v-for="item in data.configuration"
             :label="`${item.label}:`"
@@ -79,7 +89,12 @@
         </el-form>
       </el-collapse-item>
       <el-collapse-item title="引脚" name="2">
-        <el-form label-width="40px" size="small" label-position="left">
+        <el-form
+          v-if="ports"
+          label-width="40px"
+          size="small"
+          label-position="left"
+        >
           <el-form-item v-for="item in ports" :label="`${item.id}:`">
             <el-input size="small" v-model="item.attrs!.text.text" />
           </el-form-item>
@@ -96,14 +111,18 @@ const store = grahpStore();
 let activeCollapsekey = ref('0');
 
 let node: Node = store.currentNode.node;
-let data = reactive(node.getData());
+let data = ref(node.getData());
 let visible = ref(node.isVisible());
-let ports = reactive(node.getPorts());
+let ports = ref(node.getPorts());
 
-console.log(ports, node.getPortProp(ports[0].id as unknown as string), 'data');
+console.log(
+  ports,
+  node.getPortProp(ports.value[0].id as unknown as string),
+  'data'
+);
 
 const initDefault = (node: Node) => {
-  data = node.getData();
+  data.value = node.getData();
   visible.value = node.isVisible();
 };
 
@@ -112,6 +131,7 @@ watch(
   (value) => {
     node = value.currentNode.node;
     initDefault(node);
+    console.log('nodechange', store.currentNode);
   },
   {
     deep: true,

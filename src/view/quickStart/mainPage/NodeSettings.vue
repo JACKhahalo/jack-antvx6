@@ -57,7 +57,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import { reactive, ref, watch } from 'vue';
+import { ref, watch } from 'vue';
 import { grahpStore } from '../../../pinia/graph';
 import { Node } from '@antv/x6';
 const store = grahpStore();
@@ -69,7 +69,7 @@ let zIndex = ref(node.getZIndex());
 let size = ref(node.size());
 let position = ref(node.position());
 let angle = ref(node.getAngle());
-let attrs = reactive(node.getAttrs());
+let attrs = ref(node.getAttrs());
 
 //默认参数赋值
 const initDefault = (node: Node) => {
@@ -77,8 +77,7 @@ const initDefault = (node: Node) => {
   size.value = node.size();
   position.value = node.position();
   angle.value = node.getAngle();
-  attrs = node.getAttrs();
-  node.setAttrs(attrs);
+  attrs.value = node.getAttrs();
 };
 
 watch(
@@ -86,8 +85,7 @@ watch(
   (value) => {
     node = value.currentNode.node;
     initDefault(node);
-
-    console.log(size, value, 'nodechange', store.currentNode);
+    // console.log(size, value, 'nodechange', store.currentNode);
   },
   {
     deep: true,

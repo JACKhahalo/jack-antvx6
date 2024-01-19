@@ -1,0 +1,1848 @@
+{
+  "component_new_ac_voltage_source_3_p_1": {
+    "args": {
+      "BusType": "1",
+      "Dr": 0.2,
+      "Fault": "0",
+      "Func": "0",
+      "Grnd": "1",
+      "I": "",
+      "Init": "0",
+      "Irms": "",
+      "Name": "",
+      "P": "",
+      "Ph": 0,
+      "Q": "",
+      "R": 0,
+      "Tconstant": 0.05,
+      "Tfe": 0.4,
+      "Tfs": 0.2,
+      "Tramp": 0.05,
+      "V": "",
+      "Vm": 115.5,
+      "Vrms": "",
+      "f": 50,
+      "pf_P": 225,
+      "pf_Q": 100,
+      "pf_Qmax": 200,
+      "pf_Qmin": -200,
+      "pf_Theta": 0,
+      "pf_V": 1.05,
+      "pf_Vmax": 10,
+      "pf_Vmin": 0.001
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_newACVoltageSource_3p",
+    "flip": false,
+    "id": "component_new_ac_voltage_source_3_p_1",
+    "label": "三相交流电压源-1",
+    "pins": {
+      "0": "",
+      "1": ""
+    },
+    "position": {
+      "x": 50,
+      "y": 430
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 30,
+      "width": 90
+    },
+    "style": {},
+    "zIndex": 2
+  },
+  "component_new_ac_voltage_source_3_p_2": {
+    "angle": 0,
+    "args": {
+      "BusType": "2",
+      "Dr": 0.2,
+      "Fault": "0",
+      "Func": "0",
+      "Grnd": "1",
+      "I": "",
+      "Init": "0",
+      "Irms": "",
+      "Name": "",
+      "P": "",
+      "Ph": 0,
+      "Q": "",
+      "R": 0,
+      "Tconstant": 0.05,
+      "Tfe": 0.4,
+      "Tfs": 0.2,
+      "Tramp": 0.05,
+      "V": "",
+      "Vm": 115.5,
+      "Vrms": "",
+      "f": 50,
+      "pf_P": 225,
+      "pf_Q": 100,
+      "pf_Qmax": 200,
+      "pf_Qmin": -200,
+      "pf_Theta": 0,
+      "pf_V": 1.05,
+      "pf_Vmax": 10,
+      "pf_Vmin": 0.001
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_newACVoltageSource_3p",
+    "flip": true,
+    "id": "component_new_ac_voltage_source_3_p_2",
+    "label": "三相交流电压源-2",
+    "pins": {
+      "0": "",
+      "1": "#abc3"
+    },
+    "position": {
+      "x": 1120,
+      "y": 415
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 30,
+      "width": 90
+    },
+    "style": {},
+    "zIndex": 8
+  },
+  "component_new_bus_3_p_1": {
+    "args": {
+      "Freq": 50,
+      "Name": "",
+      "RampingTime": 0.06,
+      "Theta": 0,
+      "V": 1,
+      "VBase": 110,
+      "Vabc": "",
+      "Vrms": ""
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_newBus_3p",
+    "flip": false,
+    "id": "component_new_bus_3_p_1",
+    "label": "三相交流母线1",
+    "pins": {
+      "0": ""
+    },
+    "position": {
+      "x": 165,
+      "y": 390
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 40,
+      "width": 100
+    },
+    "style": {},
+    "zIndex": 3
+  },
+  "component_new_bus_3_p_2": {
+    "args": {
+      "Freq": 50,
+      "Name": "",
+      "RampingTime": 0.06,
+      "Theta": 0,
+      "V": 1,
+      "VBase": 110,
+      "Vabc": "",
+      "Vrms": ""
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_newBus_3p",
+    "flip": false,
+    "id": "component_new_bus_3_p_2",
+    "label": "三相交流母线2",
+    "pins": {
+      "0": ""
+    },
+    "position": {
+      "x": 375,
+      "y": 385
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 40,
+      "width": 100
+    },
+    "style": {},
+    "zIndex": 16
+  },
+  "component_new_bus_3_p_3": {
+    "args": {
+      "Freq": 50,
+      "Name": "",
+      "RampingTime": 0.06,
+      "Theta": 0,
+      "V": 1,
+      "VBase": 110,
+      "Vabc": "",
+      "Vrms": ""
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_newBus_3p",
+    "flip": false,
+    "id": "component_new_bus_3_p_3",
+    "label": "三相交流母线3",
+    "pins": {
+      "0": ""
+    },
+    "position": {
+      "x": 605,
+      "y": 360
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 40,
+      "width": 100
+    },
+    "style": {},
+    "zIndex": 17
+  },
+  "component_new_bus_3_p_4": {
+    "args": {
+      "Freq": 50,
+      "Name": "",
+      "RampingTime": 0.06,
+      "Theta": 0,
+      "V": 1,
+      "VBase": 110,
+      "Vabc": "",
+      "Vrms": ""
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_newBus_3p",
+    "flip": false,
+    "id": "component_new_bus_3_p_4",
+    "label": "三相交流母线4",
+    "pins": {
+      "0": ""
+    },
+    "position": {
+      "x": 1000,
+      "y": 385
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 40,
+      "width": 100
+    },
+    "style": {},
+    "zIndex": 18
+  },
+  "component_new_bus_3_p_5": {
+    "args": {
+      "Freq": 50,
+      "Name": "",
+      "RampingTime": 0.06,
+      "Theta": 0,
+      "V": 1,
+      "VBase": 110,
+      "Vabc": "",
+      "Vrms": ""
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_newBus_3p",
+    "flip": false,
+    "id": "component_new_bus_3_p_5",
+    "label": "三相交流母线5",
+    "pins": {
+      "0": ""
+    },
+    "position": {
+      "x": 490,
+      "y": 630
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 40,
+      "width": 100
+    },
+    "style": {},
+    "zIndex": 29
+  },
+  "component_new_constant_1": {
+    "args": {
+      "Name": "",
+      "Value": 1.02
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_newConstant",
+    "flip": false,
+    "id": "component_new_constant_1",
+    "label": "常量输入1",
+    "pins": {
+      "0": ""
+    },
+    "position": {
+      "x": 200,
+      "y": 515
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 20,
+      "width": 90
+    },
+    "style": {},
+    "zIndex": 10
+  },
+  "component_new_constant_2": {
+    "angle": 180,
+    "args": {
+      "Name": "",
+      "Value": 1.02
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_newConstant",
+    "flip": false,
+    "id": "component_new_constant_2",
+    "label": "常量输入1",
+    "pins": {
+      "0": ""
+    },
+    "position": {
+      "x": 835,
+      "y": 345
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 20,
+      "width": 90
+    },
+    "style": {},
+    "zIndex": 12
+  },
+  "component_new_exp_load_3_p_1": {
+    "args": {
+      "Iname": "",
+      "Irmsname": "",
+      "KPF": 0,
+      "KQF": 0,
+      "NIM": "1",
+      "NP": 2,
+      "NQ": 2,
+      "Name": "",
+      "Pname": "",
+      "Qname": "",
+      "Vi": 1,
+      "f": 50,
+      "p": 50,
+      "q": 20,
+      "v": 500
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_newExpLoad_3p",
+    "flip": false,
+    "id": "component_new_exp_load_3_p_1",
+    "label": "静态负载1",
+    "pins": {
+      "0": ""
+    },
+    "position": {
+      "x": 335,
+      "y": 300
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 60,
+      "width": 30
+    },
+    "style": {},
+    "zIndex": 6
+  },
+  "component_new_exp_load_3_p_2": {
+    "args": {
+      "Iname": "",
+      "Irmsname": "",
+      "KPF": 0,
+      "KQF": 0,
+      "NIM": "1",
+      "NP": 2,
+      "NQ": 2,
+      "Name": "",
+      "Pname": "",
+      "Qname": "",
+      "Vi": 1,
+      "f": 50,
+      "p": 50,
+      "q": 20,
+      "v": 500
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_newExpLoad_3p",
+    "flip": false,
+    "id": "component_new_exp_load_3_p_2",
+    "label": "静态负载1",
+    "pins": {
+      "0": ""
+    },
+    "position": {
+      "x": 570,
+      "y": 300
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 60,
+      "width": 30
+    },
+    "style": {},
+    "zIndex": 23
+  },
+  "component_new_exp_load_3_p_3": {
+    "args": {
+      "Iname": "",
+      "Irmsname": "",
+      "KPF": 0,
+      "KQF": 0,
+      "NIM": "1",
+      "NP": 2,
+      "NQ": 2,
+      "Name": "",
+      "Pname": "",
+      "Qname": "",
+      "Vi": 1,
+      "f": 50,
+      "p": 50,
+      "q": 20,
+      "v": 500
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_newExpLoad_3p",
+    "flip": false,
+    "id": "component_new_exp_load_3_p_3",
+    "label": "静态负载1",
+    "pins": {
+      "0": ""
+    },
+    "position": {
+      "x": 525,
+      "y": 715
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 60,
+      "width": 30
+    },
+    "style": {},
+    "zIndex": 24
+  },
+  "component_new_transformer_3_p_2_w_1": {
+    "args": {
+      "Enab": "0",
+      "Flux": "",
+      "Gm": 0,
+      "I1": "",
+      "I1p": "",
+      "I1rms": "",
+      "I2": "",
+      "I2p": "",
+      "I2rms": "",
+      "Im": "",
+      "Im1": 0.4,
+      "InitTap": 1,
+      "Lead": "1",
+      "NIM": "1",
+      "Name": "",
+      "P1": "",
+      "P2": "",
+      "Q1": "",
+      "Q2": "",
+      "Rl": 0,
+      "Rn1": 0.01,
+      "Rn2": 0.01,
+      "Sat": "1",
+      "Tap": "2",
+      "Tdc": 0,
+      "Tmva": 100,
+      "Txk": 0,
+      "V1": 110,
+      "V2": 110,
+      "Xac": 0.2,
+      "Xknee": 1.17,
+      "Xl": 0.015,
+      "YD1": "1",
+      "YD2": "1",
+      "f": 50
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_newTransformer_3p2w",
+    "flip": false,
+    "id": "component_new_transformer_3_p_2_w_1",
+    "label": "三相双绕组变压器-1",
+    "pins": {
+      "0": "",
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": ""
+    },
+    "position": {
+      "x": 240,
+      "y": 415
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 60,
+      "width": 120
+    },
+    "style": {},
+    "zIndex": 5
+  },
+  "component_new_transformer_3_p_2_w_2": {
+    "angle": 0,
+    "args": {
+      "Enab": "0",
+      "Flux": "",
+      "Gm": 0,
+      "I1": "",
+      "I1p": "",
+      "I1rms": "",
+      "I2": "",
+      "I2p": "",
+      "I2rms": "",
+      "Im": "",
+      "Im1": 0.4,
+      "InitTap": 1,
+      "Lead": "1",
+      "NIM": "1",
+      "Name": "",
+      "P1": "",
+      "P2": "",
+      "Q1": "",
+      "Q2": "",
+      "Rl": 0,
+      "Rn1": 0.01,
+      "Rn2": 0.01,
+      "Sat": "1",
+      "Tap": "1",
+      "Tdc": 0,
+      "Tmva": 100,
+      "Txk": 0,
+      "V1": 110,
+      "V2": 110,
+      "Xac": 0.2,
+      "Xknee": 1.17,
+      "Xl": 0.03,
+      "YD1": "1",
+      "YD2": "1",
+      "f": 50
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_newTransformer_3p2w",
+    "flip": false,
+    "id": "component_new_transformer_3_p_2_w_2",
+    "label": "三相双绕组变压器-2",
+    "pins": {
+      "0": "",
+      "1": "#abc1",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": ""
+    },
+    "position": {
+      "x": 755,
+      "y": 400
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 60,
+      "width": 120
+    },
+    "style": {},
+    "zIndex": 9
+  },
+  "component_new_voltage_meter_1": {
+    "args": {
+      "Dim": "3",
+      "V": "#Va"
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/_NewVoltageMeter",
+    "flip": false,
+    "id": "component_new_voltage_meter_1",
+    "label": "电压表1",
+    "pins": {
+      "0": ""
+    },
+    "position": {
+      "x": 1075,
+      "y": 490
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 50,
+      "width": 30
+    },
+    "style": {},
+    "zIndex": 53
+  },
+  "component_transsmission_line_router_1": {
+    "args": {
+      "B0pu": 0.006213,
+      "B1pu": 0.5,
+      "Decoupled": "0",
+      "Freq": 50,
+      "Ir": "",
+      "Irrms": "",
+      "Is": "",
+      "Isrms": "",
+      "Length": 1,
+      "LongLineCorrection": "0",
+      "ModelType": "0",
+      "NIM": "1",
+      "Name": "",
+      "ParamFormat": "0",
+      "Ploss": "",
+      "Pr": "",
+      "Ps": "",
+      "Qloss": "",
+      "Qr": "",
+      "Qs": "",
+      "R0": 0.2885,
+      "R0pu": 0.0001154,
+      "R1": 0.0153,
+      "R1pu": 0.08,
+      "Sbase": 100,
+      "Vbase": 110,
+      "X0pu": 0.0004276,
+      "X1pu": 0.3,
+      "Xc0": 0.4024,
+      "Xc1": 0.2528,
+      "Xl0": 1.069,
+      "Xl1": 0.289,
+      "Zero": "1"
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/TranssmissionLineRouter",
+    "flip": false,
+    "id": "component_transsmission_line_router_1",
+    "label": "三相传输线1",
+    "pins": {
+      "0": "",
+      "1": ""
+    },
+    "position": {
+      "x": 500,
+      "y": 430
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 30,
+      "width": 90
+    },
+    "style": {},
+    "zIndex": 4
+  },
+  "component_transsmission_line_router_2": {
+    "args": {
+      "B0pu": 0.006213,
+      "B1pu": 0.5,
+      "Decoupled": "0",
+      "Freq": 50,
+      "Ir": "",
+      "Irrms": "",
+      "Is": "",
+      "Isrms": "",
+      "Length": 1,
+      "LongLineCorrection": "0",
+      "ModelType": "0",
+      "NIM": "1",
+      "Name": "",
+      "ParamFormat": "0",
+      "Ploss": "",
+      "Pr": "",
+      "Ps": "",
+      "Qloss": "",
+      "Qr": "",
+      "Qs": "",
+      "R0": 0.2885,
+      "R0pu": 0.0001154,
+      "R1": 0.0153,
+      "R1pu": 0.04,
+      "Sbase": 100,
+      "Vbase": 110,
+      "X0pu": 0.0004276,
+      "X1pu": 0.25,
+      "Xc0": 0.4024,
+      "Xc1": 0.2528,
+      "Xl0": 1.069,
+      "Xl1": 0.289,
+      "Zero": "1"
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/TranssmissionLineRouter",
+    "flip": false,
+    "id": "component_transsmission_line_router_2",
+    "label": "三相传输线2",
+    "pins": {
+      "0": "",
+      "1": ""
+    },
+    "position": {
+      "x": 405,
+      "y": 560
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 30,
+      "width": 90
+    },
+    "style": {},
+    "zIndex": 14
+  },
+  "component_transsmission_line_router_3": {
+    "args": {
+      "B0pu": 0.006213,
+      "B1pu": 0.5,
+      "Decoupled": "0",
+      "Freq": 50,
+      "Ir": "",
+      "Irrms": "",
+      "Is": "",
+      "Isrms": "",
+      "Length": 1,
+      "LongLineCorrection": "0",
+      "ModelType": "0",
+      "NIM": "1",
+      "Name": "",
+      "ParamFormat": "0",
+      "Ploss": "",
+      "Pr": "",
+      "Ps": "",
+      "Qloss": "",
+      "Qr": "",
+      "Qs": "",
+      "R0": 0.2885,
+      "R0pu": 0.0001154,
+      "R1": 0.0153,
+      "R1pu": 0.1,
+      "Sbase": 100,
+      "Vbase": 110,
+      "X0pu": 0.0004276,
+      "X1pu": 0.35,
+      "Xc0": 0.4024,
+      "Xc1": 0.2528,
+      "Xl0": 1.069,
+      "Xl1": 0.289,
+      "Zero": "1"
+    },
+    "canvas": "canvas_0",
+    "context": {},
+    "definition": "model/CloudPSS/TranssmissionLineRouter",
+    "flip": false,
+    "id": "component_transsmission_line_router_3",
+    "label": "三相传输线3",
+    "pins": {
+      "0": "",
+      "1": ""
+    },
+    "position": {
+      "x": 575,
+      "y": 560
+    },
+    "props": {
+      "enabled": true,
+      "outlineLevel": 0
+    },
+    "shape": "diagram-component",
+    "size": {
+      "height": 30,
+      "width": 90
+    },
+    "style": {},
+    "zIndex": 15
+  },
+  "edge_0xQlHHVA07qt": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "fill": "var(--edge-stroke)",
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "fill": "var(--edge-stroke)",
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_0xQlHHVA07qt",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_transsmission_line_router_3",
+      "port": "1"
+    },
+    "target": {
+      "anchor": {
+        "args": {
+          "dx": "-5%",
+          "dy": "0%",
+          "rotate": true
+        },
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_3",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "vertices": [],
+    "zIndex": 46
+  },
+  "edge_4dyn06u4wkqw": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_4dyn06u4wkqw",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "args": {
+          "dx": "-30%",
+          "dy": "0%",
+          "rotate": true
+        },
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_2",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_transformer_3_p_2_w_1",
+      "port": "1"
+    },
+    "vertices": [
+      {
+        "x": 395,
+        "y": 420
+      }
+    ],
+    "zIndex": 21
+  },
+  "edge_5UfobBYGahSn": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_5UfobBYGahSn",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "args": {
+          "dx": "25%",
+          "dy": "0%",
+          "rotate": true
+        },
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_1",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_transformer_3_p_2_w_1",
+      "port": "0"
+    },
+    "vertices": [],
+    "zIndex": 20
+  },
+  "edge_BqOgwr5u2O93": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_BqOgwr5u2O93",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "args": {
+          "dx": "15%",
+          "dy": "0%",
+          "rotate": true
+        },
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_3",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_transformer_3_p_2_w_2",
+      "port": "0"
+    },
+    "vertices": [
+      {
+        "x": 690,
+        "y": 430
+      }
+    ],
+    "zIndex": 31
+  },
+  "edge_Er3UnKvD9Tvw": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_Er3UnKvD9Tvw",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "args": {
+          "dx": "25%",
+          "dy": "0%",
+          "rotate": true
+        },
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_2",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_transsmission_line_router_1",
+      "port": "0"
+    },
+    "vertices": [
+      {
+        "x": 450,
+        "y": 445
+      }
+    ],
+    "zIndex": 26
+  },
+  "edge_ILdtY2nIA3Nw": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_ILdtY2nIA3Nw",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "args": {
+          "dx": "30%",
+          "dy": "0%",
+          "rotate": true
+        },
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_4",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_ac_voltage_source_3_p_2",
+      "port": "1"
+    },
+    "vertices": [
+      {
+        "x": 1080,
+        "y": 430
+      }
+    ],
+    "zIndex": 37
+  },
+  "edge_QayYvMfXalKS": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-input-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_QayYvMfXalKS",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_transformer_3_p_2_w_2",
+      "port": "2"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_constant_2",
+      "port": "0"
+    },
+    "vertices": [],
+    "zIndex": 25
+  },
+  "edge_RN4qK8aRo2nj": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_RN4qK8aRo2nj",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "args": {
+          "dx": "-25%",
+          "dy": "0%",
+          "rotate": true
+        },
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_1",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_ac_voltage_source_3_p_1",
+      "port": "1"
+    },
+    "vertices": [
+      {
+        "x": 190,
+        "y": 425
+      }
+    ],
+    "zIndex": 19
+  },
+  "edge_bBrvoW69Vo5e": {
+    "attrs": {
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_bBrvoW69Vo5e",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_voltage_meter_1",
+      "port": "0"
+    },
+    "target": {
+      "anchor": {
+        "args": {
+          "ratio": 0.5714285714285714
+        },
+        "name": "ratio"
+      },
+      "cell": "edge_ILdtY2nIA3Nw"
+    },
+    "vertices": [],
+    "zIndex": 54
+  },
+  "edge_cuPWEsi4ugtn": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_cuPWEsi4ugtn",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "args": {
+          "dx": "25%",
+          "dy": "0%",
+          "rotate": true
+        },
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_5",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_transsmission_line_router_3",
+      "port": "0"
+    },
+    "vertices": [],
+    "zIndex": 33
+  },
+  "edge_ecZUCvNRlh9r": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_ecZUCvNRlh9r",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "args": {
+          "dx": "-20%",
+          "dy": "0%",
+          "rotate": true
+        },
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_3",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_transsmission_line_router_1",
+      "port": "1"
+    },
+    "vertices": [
+      {
+        "x": 635,
+        "y": 445
+      }
+    ],
+    "zIndex": 27
+  },
+  "edge_gyUOXm7RKE1G": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-output-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_gyUOXm7RKE1G",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_constant_1",
+      "port": "0"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_transformer_3_p_2_w_1",
+      "port": "3"
+    },
+    "vertices": [
+      {
+        "x": 295,
+        "y": 505
+      }
+    ],
+    "zIndex": 11
+  },
+  "edge_hc1QEO2XMajB": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_hc1QEO2XMajB",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "args": {
+          "dx": "-30%",
+          "dy": "0%",
+          "rotate": true
+        },
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_5",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_transsmission_line_router_2",
+      "port": "1"
+    },
+    "vertices": [],
+    "zIndex": 34
+  },
+  "edge_huA0ruXQfE75": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_huA0ruXQfE75",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_2",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_exp_load_3_p_1",
+      "port": "0"
+    },
+    "vertices": [
+      {
+        "x": 425,
+        "y": 330
+      }
+    ],
+    "zIndex": 22
+  },
+  "edge_hzEPjXNwjWf6": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "fill": "var(--edge-stroke)",
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "fill": "var(--edge-stroke)",
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_hzEPjXNwjWf6",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_transformer_3_p_2_w_2",
+      "port": "1"
+    },
+    "target": {
+      "anchor": {
+        "args": {
+          "dx": "-10%",
+          "dy": "0%",
+          "rotate": true
+        },
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_4",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "vertices": [],
+    "zIndex": 57
+  },
+  "edge_smWBjNCyBis2": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "fill": "var(--edge-stroke)",
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "fill": "var(--edge-stroke)",
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_smWBjNCyBis2",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_exp_load_3_p_3",
+      "port": "0"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_5",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "vertices": [],
+    "zIndex": 47
+  },
+  "edge_tMMIwb4wmvxA": {
+    "attrs": {
+      "line": {
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          }
+        }
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_tMMIwb4wmvxA",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "args": {
+          "dx": "5%",
+          "dy": "0%",
+          "rotate": true
+        },
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_3",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_new_exp_load_3_p_2",
+      "port": "0"
+    },
+    "vertices": [
+      {
+        "x": 660,
+        "y": 300
+      }
+    ],
+    "zIndex": 28
+  },
+  "edge_uPnctUYwWtP6": {
+    "attrs": {
+      "line": {
+        "sourceMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        },
+        "targetMarker": {
+          "args": {
+            "cx": 0,
+            "r": 0.5
+          },
+          "name": "circle"
+        }
+      },
+      "lines": {
+        "connection": true,
+        "strokeLinejoin": "round"
+      },
+      "root": {
+        "style": {
+          "--stroke": "var(--edge-electrical-stroke,var(--edge-stroke))",
+          "--stroke-opacity": 1,
+          "--stroke-width": 2
+        }
+      }
+    },
+    "canvas": "canvas_0",
+    "id": "edge_uPnctUYwWtP6",
+    "shape": "diagram-edge",
+    "source": {
+      "anchor": {
+        "args": {
+          "dx": "-10%",
+          "dy": "0%",
+          "rotate": true
+        },
+        "name": "center"
+      },
+      "cell": "component_new_bus_3_p_2",
+      "port": "0",
+      "selector": "> path:nth-child(2)"
+    },
+    "target": {
+      "anchor": {
+        "name": "center"
+      },
+      "cell": "component_transsmission_line_router_2",
+      "port": "0"
+    },
+    "vertices": [
+      {
+        "x": 405,
+        "y": 510
+      }
+    ],
+    "zIndex": 30
+  }
+}

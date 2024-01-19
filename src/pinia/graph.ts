@@ -1,17 +1,18 @@
 import { Graph } from '@antv/x6';
 import { Dnd } from '@antv/x6-plugin-dnd';
 import { defineStore } from 'pinia';
-import { ref, reactive } from 'vue';
+import { ref } from 'vue';
 
 export const grahpStore = defineStore('grahp', {
   state: () => {
     return {
       currentGraph: Graph,
       currentDnd: Dnd,
-      currentNode: reactive(),
+      currentNode: ref(),
+      currentEdge: ref(),
       leftSideRender: ref(false),
       itemRender: ref(false),
-      defaultSettings: ref(true),
+      defaultSettings: ref(0),
     };
   },
   actions: {
@@ -29,6 +30,9 @@ export const grahpStore = defineStore('grahp', {
     },
     currentNodeChange(node: any) {
       this.currentNode = node;
+    },
+    currentEdgeChange(edge: any) {
+      this.currentEdge = edge;
     },
     defaultSettingsChange(value: any) {
       this.defaultSettings = value;
